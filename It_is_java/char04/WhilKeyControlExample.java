@@ -11,7 +11,7 @@ public class WhilKeyControlExample {
 				System.out.println("--------------------");
 				System.out.println("1.증속 | 2.감속 | 3.중지");
 				System.out.println("--------------------");
-				System.out.println("선택 : ");
+				System.out.print("선택 : ");
 			}
 			
 			keyCode = System.in.read();							//키보드의 키 코드 읽음
@@ -26,6 +26,8 @@ public class WhilKeyControlExample {
 				run = false;									//while문을 종료하기 위한 문장
 			}
 		}
+		
 		System.out.println("프로그램 종료");
+		
 	}
 }
