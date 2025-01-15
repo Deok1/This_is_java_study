@@ -1,16 +1,15 @@
-package char04;
+package chap04;
 
-public class IfExample {
+public class IfElseExample {
 	public static void main(String[] args) {
-		int score = 93;
+		int score = 99;
 		
-		if(score >= 90 ) {
+		if( score>=90 ) {
 			System.out.println("점수가 90보다 큽니다.");
 			System.out.println("등급은 A 입니다.");
-		}
-		
-		if(score<90)
+		} else {
 			System.out.println("점수가 90보다 작습니다.");
-			System.out.println("등급은 B 입니다.");			//if문과는 상관없는 실행문이 된다
+			System.out.println("등급은 B 입니다.");
+		}
 	}
 }

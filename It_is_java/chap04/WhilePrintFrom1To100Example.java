@@ -1,4 +1,4 @@
-package char04;
+package chap04;
 
 public class WhilePrintFrom1To100Example {
 	public static void main(String[] args) {

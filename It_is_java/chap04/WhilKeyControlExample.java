@@ -1,4 +1,4 @@
-package char04;
+package chap04;
 
 public class WhilKeyControlExample {
 	public static void main(String[] args) throws Exception {  	//"throws Exception"은 System.in.read() 메소드에 대한 예외처리. 당장은 이해하지말기
