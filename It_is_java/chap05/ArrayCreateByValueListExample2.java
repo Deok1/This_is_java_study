@@ -18,7 +18,7 @@ public class ArrayCreateByValueListExample2 {
 		
 	}
 
-	private static int add(int[] scores) {
+	private static int add(int[] scores) {				//총합을 계산해서 리턴하는 메소드
 		int sum = 0;
 		for( int i=0; i<3; i++) {
 			sum += scores[i];
