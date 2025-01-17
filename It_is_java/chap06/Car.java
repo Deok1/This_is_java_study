@@ -14,13 +14,12 @@ public class Car {
 	
 	//생성자2
 	Car(String model) {
-		this.model = model;
+		this(model, "은색", 250);
 	}
 	
 	//생성자3
 	Car(String model, String color) {
-		this.model = model;
-		this.color = color;
+		this(model, color, 250);;
 	}
 	
 	//생성자4
